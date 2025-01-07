@@ -19,21 +19,25 @@ export const Contact: React.FC = () => {
             </Box>
 
             {/* Third Row: Instagram */}
-            <Box sx={{ display: 'flex', alignItems: 'center' , mb: 2 }}>
+            {/* <Box sx={{ display: 'flex', alignItems: 'center' , mb: 2 }}>
                 <Typography variant="h6" sx={{ mr: 1 }}>📸</Typography>
                 <Typography variant="body1">
                     <a href="https://www.instagram.com/knezevic.knez?igsh=MWl1dDJrd3h0dzl5MQ==" target="_blank" rel="noopener noreferrer">
                         Instagram
                     </a>
                 </Typography>
-            </Box>
+            </Box> */}
 
 
             {/* Fourth Row: LinkedIn */}
-            {/* <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: 2 }}>
                 <Typography variant="h6" sx={{ mr: 1 }}>💼</Typography> {/* LinkedIn icon */}
-                {/* <Typography variant="body1">LinkedIn</Typography> */}
-            {/* </Box> */} 
+                <Typography variant="body1">
+                    <a href="https://www.linkedin.com/in/nebojsa-knezevic-952b1b344/" target="_blank" rel="noopener noreferrer">
+                        LinkedIn
+                    </a>
+                </Typography>
+            </Box> 
         </Box>
     );
 };

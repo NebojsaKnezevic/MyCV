@@ -27,6 +27,7 @@ export const WorkExperience: React.FC = () => {
             <Box sx={{ my: 2 }}>
                 <Typography variant="body1" sx={{ fontWeight: "bold" }}>
                     Advanced Computing Technology (2022-present)
+                    {/* ABB (2022-present) */}
                 </Typography>
                 <Typography variant="body2" sx={{ fontStyle: "italic", mb: 1 }}>
                     (Data Integration, Business Intelligence, and Full-Stack Development)
