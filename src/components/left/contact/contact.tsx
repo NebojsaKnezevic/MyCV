@@ -18,15 +18,15 @@ export const Contact: React.FC = () => {
                 <Typography variant="body1">+381-61-500-7654</Typography>
             </Box>
 
-            {/* Third Row: Instagram */}
-            {/* <Box sx={{ display: 'flex', alignItems: 'center' , mb: 2 }}>
-                <Typography variant="h6" sx={{ mr: 1 }}>📸</Typography>
+            {/* Third Row: GitHub */}
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: 0 }}>
+                <Typography variant="h6" sx={{ mr: 1 }}>🐙</Typography> {/* GitHub icon */}
                 <Typography variant="body1">
-                    <a href="https://www.instagram.com/knezevic.knez?igsh=MWl1dDJrd3h0dzl5MQ==" target="_blank" rel="noopener noreferrer">
-                        Instagram
+                    <a href="https://github.com/NebojsaKnezevic" target="_blank" rel="noopener noreferrer">
+                        GitHub
                     </a>
                 </Typography>
-            </Box> */}
+            </Box>
 
 
             {/* Fourth Row: LinkedIn */}
@@ -37,7 +37,7 @@ export const Contact: React.FC = () => {
                         LinkedIn
                     </a>
                 </Typography>
-            </Box> 
+            </Box>
         </Box>
     );
 };
