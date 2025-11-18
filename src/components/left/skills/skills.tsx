@@ -9,20 +9,23 @@ export const Skills: React.FC = () => {
             {/* First Row: React */}
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 0 }}>
                 <Typography variant="h6" sx={{ mr: 1 }}>⚛️</Typography> {/* React icon */}
-                <Typography variant="body1">React</Typography>
+                <Typography variant="body1">React/TypeScript</Typography>
             </Box>
 
-              {/* First Row: TypeScript */}
-              <Box sx={{ display: 'flex', alignItems: 'center', mb: 0 }}>
-                <Typography variant="h6" sx={{ mr: 1 }}>💻</Typography> {/* React icon */}
-                <Typography variant="body1">TypeScript</Typography>
-            </Box>
+         
 
             {/* Second Row: .NET */}
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 0 }}>
                 <Typography variant="h6" sx={{ mr: 1 }}>🔵</Typography> {/* .NET icon */}
                 <Typography variant="body1">.NET (Dapper, EF Core)</Typography>
             </Box>
+
+                       {/* Second Row: Express */}
+            <Box sx={{ display: 'flex', alignItems: 'center', mb: 0 }}>
+                <Typography variant="h6" sx={{ mr: 1 }}>🟢</Typography> {/* Express icon */}
+                <Typography variant="body1">Express (TypeScript, Node.js)</Typography>
+            </Box>
+
 
             {/* Third Row: MUI */}
             <Box sx={{ display: 'flex', alignItems: 'center', mb: 0 }}>
