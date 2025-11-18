@@ -49,8 +49,8 @@ const Resume: React.FC = () => {
     const imgWidthPx = canvas.width;
     const imgHeightPx = canvas.height;
 
-    // konverzija px → mm (jer jsPDF koristi mm)
-    const pxToMm = (px) => px * 0.144583;
+
+    const pxToMm = (px:number) => px * 0.144583;
 
     const pdfWidth = pxToMm(imgWidthPx);
     const pdfHeight = pxToMm(imgHeightPx);
