@@ -46,8 +46,7 @@ export const Projects: React.FC = () => {
           <Typography variant="h6">- CPU8FE</Typography>
 
           <Typography variant="body1" sx={{ mb: 2 }}>
-            An interactive UI that visualizes CPU state changes in real-time.
-            Still in active development.
+            An interactive UI that visualizes CPU state changes in real-time. <b>Still in active development.</b>
           </Typography>
 
           <Box sx={{ textAlign: "center", mb: 2 }}>
@@ -69,7 +68,7 @@ export const Projects: React.FC = () => {
           </Box>
 
           <Typography variant="h6">- CPU8BE</Typography>
-          <Typography variant="body1">Work planned.</Typography>
+          <Typography variant="body1"><b>Work planned.</b></Typography>
         </Grid2>
 
         {/* Concur Project */}
