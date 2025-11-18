@@ -13,37 +13,34 @@ export const Projects: React.FC = () => {
         <Grid2>
           <Typography variant="h4">CPU Simulator(PUBLIC)</Typography>
           <Typography variant="body1">
-            The only project I actually LOVE and actively work on for the past
-            year and a half. The scope of this project is huge (still going),
-            and the amount of research needed was also significant (still
-            going). It included two books and dozens of other articles, videos,
-            and available resources.
+            A long-term personal project focused on building an educational CPU
+            simulator with an assembler, a web-based frontend, and a backend
+            architecture. The simulator aims to help developers and students
+            understand how computers work by visualizing each clock cycle,
+            instruction, and hardware-level operation.
           </Typography>
-          <Typography variant="body1" sx={{ mt: 1, fontWeight: "bold" }}>
+          {/* <Typography variant="body1" sx={{ mt: 1, fontWeight: "bold" }}>
             My goal is to create educational software for developers and tech
             enthusiasts to learn how computers work through an interactive
             graphical interface, where the student can observe every clock tick
             and its consequences inside the machine while executing programs
             written by the student in the assembly language.
-          </Typography>
+          </Typography> */}
 
           <Typography variant="h6">- CPU + Assembler</Typography>
           <Typography variant="body1">
-            This is the heart of the project and it is almost finished. By
-            "almost" I mean I still need to make code base a bit prettier and
-            write README. I started by implementing basic logic gates (NAND, OR,
-            NOT, XOR), then built higher-order circuits (adders, counters,
-            steppers), and eventually complete CPU components such as the ALU,
-            Control Unit, and RAM. I also developed a full assembler with a
-            complete instruction set.
+            Implemented the CPU entirely from first principles: starting with
+            logic gates (NAND, OR, NOT, XOR), constructing higher-level circuits
+            (adders, counters, registers), and finally assembling complete
+            components such as the ALU, RAM, and the Control Unit. Also
+            developed a custom assembler with a full instruction set.
           </Typography>
 
           <Typography variant="h6">- CPU8FE</Typography>
 
           <Typography variant="body1" sx={{ mb: 2 }}>
-            Frontend for the CPU simulator. It provides an interactive UI where
-            you can visualize everything described in the "CPU + Assembler"
-            section of the project. This part is still under development.
+            An interactive UI that visualizes CPU state changes in real-time.
+            Still in active development.
           </Typography>
 
           <Box sx={{ textAlign: "center", mb: 2 }}>
@@ -60,15 +57,12 @@ export const Projects: React.FC = () => {
 
             <Typography variant="body2" sx={{ mt: 1 }}>
               {/* Ovde ti dodaješ opis slike */}
-              This is a preview of the frontend interface as of
-              2025-11-17.
+              This is a preview of the frontend interface as of 2025-11-17.
             </Typography>
           </Box>
 
           <Typography variant="h6">- CPU8BE</Typography>
-          <Typography variant="body1">
-            I need yet to begin my work on this one.
-          </Typography>
+          <Typography variant="body1">Work planned.</Typography>
         </Grid2>
 
         {/* Concur Project */}
