@@ -19,15 +19,22 @@ export const Projects: React.FC = () => {
             understand how computers work by visualizing each clock cycle,
             instruction, and hardware-level operation.
           </Typography>
-          {/* <Typography variant="body1" sx={{ mt: 1, fontWeight: "bold" }}>
-            My goal is to create educational software for developers and tech
-            enthusiasts to learn how computers work through an interactive
-            graphical interface, where the student can observe every clock tick
-            and its consequences inside the machine while executing programs
-            written by the student in the assembly language.
-          </Typography> */}
+          <Typography
+            variant="body1"
+            sx={{
+              whiteSpace: "pre-wrap",
+              fontFamily: "monospace",
+              mt: 1,mb:3
+            }}
+          >
+            {`The project consists of three parts:
+1. CPU (With assembler)
+2. CPU8FE
+3. CPU8BE
+`}
+          </Typography>
 
-          <Typography variant="h6">- CPU + Assembler</Typography>
+          <Typography variant="h6">- CPU (With assembler)</Typography>
           <Typography variant="body1">
             Implemented the CPU entirely from first principles: starting with
             logic gates (NAND, OR, NOT, XOR), constructing higher-level circuits
